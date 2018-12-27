@@ -1,0 +1,118 @@
+/*
+For styles used by the theme
+*/
+
+html,body{
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.bold, b{font-weight: 700; font-family: 'Noto Sans'}
+.italic, i{font-style: italic}
+.strikethrough{text-decoration: line-through}
+table{
+  @extend .striped;
+  @extend .responsive-table;
+  tr{
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+  }
+}
+.post-container img{
+  @extend .responsive-img;
+}
+.post-container a{
+  color: #3498db;
+  transition: .4s ease;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+    color: #2980b9;
+    transition: .4s ease;
+  }
+}
+.post-container ul{
+  list-style-type: disc;
+  padding-left: 40px;
+  li{
+    list-style-type: inherit;
+  }
+}
+.search-highlight{@extend .light-text;}
+
+.main-trigger{
+  position: fixed;
+  right: 45px;
+  bottom: 40px;
+}
+.light-text{color: rgba(0, 0, 0, 0.53)}
+.parallax-container{
+  opacity: 0.7;
+  .first-parallax{
+    position: relative;
+    top: 40%;
+    transform: perspective(1px) translateY(-40%);
+    opacity: 1!important;
+    text-transform: capitalize;
+  }
+}
+.blog-title{
+  padding: 15px;
+}
+.nav-links{
+  font-size: 16px!important;
+}
+.sidenav-close{cursor: pointer;}
+.progress-bar-reading{
+  position: fixed;
+  top: 0;
+  margin: 0px;
+  height: 6px;
+}
+.preloader-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+}
+.preloader-wrapper{
+  position: absolute;
+  top: 45%;
+  left:47.5%;
+  margin: 0px auto
+}
+
+.author-container{
+  img{
+    float: right;
+    width: 100px;
+  }
+}
+.social-footer-icon{
+  i{color:white;
+    font-size: 35px;
+    margin: 15px;
+    transition: .4s ease;
+    &:hover{
+      transition: .4s ease;
+      color: #8e44ad;
+    }
+  }
+  padding: 10px;
+}
+
+@media #{$small-and-down} {
+    .author-container img{
+      float: none;
+    }
+}

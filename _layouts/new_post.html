@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="progress progress-bar-reading red lighten-5">
+    <div class="determinate green lighten-1" id="main-progress-bar-reading" style="width: 0%"></div>
+</div>
+
+
+<div class="left" style="top:20px;left:30px;position:absolute;">
+    <a href="{{site.baseurl}}/#blog" class="white-text waves-effect waves-lighten btn-flat grey darken-3 btn-large">
+       <i class="icon ion-md-arrow-back"></i>
+    </a>
+  </div>
+
+<div style="height: 500px; text-align: center;">
+  <img style="height: 100%"; src="{{ site.baseurl }}/images/{{ page.banner | default: "default.png" }}">
+</div>
+
+<div class="container post-container">
+  {{ content }}
+</div>
+
+<br></br>
+
+<div class="row author-container center-on-small-only">
+  <div class="col m2 s12 offset-m1">
+    <img src="{{ site.baseurl }}{{ "/images/author-avatar.png" | defaut: "/assets/img/author-avatar.png" }}" alt="{{ page.author | default: site.author }}" class="circle">
+  </div>
+  <div class="col m9 s12">
+    <h4>{{ site.author | default: page.author}}</h4>
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <span class="light-text">{{ page.date | date: date_format }}</span>
+  </div>
+</div>
+
+<br><br>

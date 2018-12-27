@@ -1,0 +1,35 @@
+---
+layout: page
+title: Tags
+---
+
+<div>
+  <div class="left" style="top:20px;left:30px;position:absolute;">
+    <a href="{{site.baseurl}}/#blog" class="white-text waves-effect waves-lighten btn-flat red lighten-1 btn-large">
+       <i class="icon ion-md-arrow-back"></i>
+    </a>
+  </div>
+  <div class="container center-align">
+    <h1><b>TAGS</b></h1>
+    {% for tag in site.tags %}
+    <a href="#{{ tag[0] | relative_url }}" class="waves-effect waves-teal btn-flat red lighten-4 teal-text"><i class="icon ion-md-pricetag"></i>  {{ tag[0] }}</a>
+    {% endfor %}
+  </div>
+  <br>
+  <div class="divider"></div>
+  <br><br>
+  {% for tag in site.tags %}
+  <div class="container">
+    <div class="collection with-header">
+      <li class="collection-header"><h3 id="{{ tag[0] | relative_url}}">{{ tag[0] }}</h3></li>
+      {% for post in tag[1] %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="collection-item">
+        {{ post.title }}
+        |
+        <span class="light-text">{{ post.date | date_to_string }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
