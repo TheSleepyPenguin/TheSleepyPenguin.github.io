@@ -4,7 +4,7 @@ title: "Make Windows 10 Look Like Windows 7"
 author: "The Sleepy Penguin"
 date: "2 September 2017"
 exerpt: "How to make Windows 10 look very much like Windows 7!"
-banner: "2017-09-02-win10-look-like-win7/Thumbnail Refresh.png"
+banner: "win10-look-like-win7/Thumbnail Refresh.png"
 tags: [windows, themes]
 ---
 
