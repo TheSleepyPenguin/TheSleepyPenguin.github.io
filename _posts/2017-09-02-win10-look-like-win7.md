@@ -81,15 +81,22 @@ If any of these links are broken, please let me know!
 Item | URL | Notes
 --- | --- | --- 
 UltraUXThemePatcher | https://www.syssel.net/hoefs/software_uxtheme.php?lang=en | You may need to repeat the install process later if the theme stops displaying correctly. 
+--- | --- | --- 
 Windows 7 Theme | http://sagorpirbd.deviantart.com/art/Aero-7-Themes-for-Win10-Final-523979941 |  
+--- | --- | --- 
 Old New Explorer | http://tihiy.net/files/OldNewExplorer.rar |  
+--- | --- | --- 
 StartIsBack++ | http://startisback.com/#download-tab |  
+--- | --- | --- 
 Classic Shell | http://www.classicshell.net/ |  
+--- | --- | --- 
 Classic Shell Start Orbs | http://www.classicshell.net/forum/viewtopic.php?t=174 |  
+--- | --- | --- 
 Winaero Tweaker | http://winaero.com/download.php?view.1796 | Tweaks (Under Desktop and Taskbar):<br>* Battery Flyout<br>
 * Increase Taskbar Transparency Level<br>
 * Old Volume Control<br>
 * Disable Action Centre 
+--- | --- | --- 
 Aero Glass | http://www.glass8.eu/download | Aero Glass Settings:<br>* Glass Geometry Radius: Win7 Style 
 
 
