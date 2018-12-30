@@ -49,6 +49,27 @@ Virustotal Scan: https://www.virustotal.com/#/file/5d9...
 Note: 2 AV engines detected this file as a virus, however the community tab has 2 votes for safe and 0 for unsafe. Proceed at your own risk.
 Note: You may need to repeat the install process later if the theme stops displaying correctly.
 
+
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+
 7zip
 http://www.7-zip.org/
 
