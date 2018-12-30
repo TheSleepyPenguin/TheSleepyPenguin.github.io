@@ -39,6 +39,9 @@ How To Install Windows 10: https://youtu.be/3Ua5Fi_uqn8
 5. Aero Glass 18:32
 
 
+Item | URL | VirusTotal Scan | Notes
+--- | --- | --- | --- 
+UltraUXThemePatcher | dididi | 2 AV detections, 2 safe votes | repeat
 
 UltraUXThemePatcher
 https://www.syssel.net/hoefs/software...
