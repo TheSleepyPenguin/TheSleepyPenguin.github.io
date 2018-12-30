@@ -15,18 +15,11 @@ Here, we make Windows 10 look like Windows 7. This has been tested to work with 
 </div>
 **Note:** The tools used in this video can break Windows, so please make a backup of your data and create a System Restore point before you begin. Also, before a major Windows update, it is recommended that you disable/uninstall all the tools temporarily used in this video to make sure that Windows updates smoothly. After the update, make sure that you do some research to ensure that the software will not cause major problems with your PC. This was recorded on the Windows 10 Creators Update released in Spring 2017 (1703).
 
+I can not be held responsible for loss of data/data corruption or your PC breaking.
 
 
-## Links:
 
-Before you begin, it is advised that you try this in a Virtual Machine/Spare PC first to make sure that there are no issues.
-Virtualbox: https://www.virtualbox.org/
-How To Install Virtualbox: https://youtu.be/7lVKXwy6W68
-
-Download Windows 10: https://www.microsoft.com/en-gb/softw...
-How To Install Windows 10: https://youtu.be/3Ua5Fi_uqn8
-
-
+## Video Info
 
 ### Video Timestamps
 
@@ -39,92 +32,64 @@ How To Install Windows 10: https://youtu.be/3Ua5Fi_uqn8
 5. Aero Glass 18:32
 
 
-Item | URL | VirusTotal Scan | Notes
---- | --- | --- | --- 
-UltraUXThemePatcher | dididi | 2 AV detections, 2 safe votes | repeat
+Note: Unfortunately, Classic Shell is no longer supported by the developer, so it may not work on future versions of Windows 10.
 
-UltraUXThemePatcher
-https://www.syssel.net/hoefs/software...
-Virustotal Scan: https://www.virustotal.com/#/file/5d9...
-Note: 2 AV engines detected this file as a virus, however the community tab has 2 votes for safe and 0 for unsafe. Proceed at your own risk.
-Note: You may need to repeat the install process later if the theme stops displaying correctly.
+### Community Suggestions
 
+You can also try out 'FolderChanger' to change things further - note that I haven't tested this out, so it may or may not work. Thanks to Tiffani Pufee for suggesting this!
 
+### Music
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
-
-
-7zip
-http://www.7-zip.org/
-
-Windows 7 Theme
-http://sagorpirbd.deviantart.com/art/...
-Virustotal Scan: https://www.virustotal.com/#/file/a16...
-
-Control Panel Personalisation
-explorer.exe ::{26EE0668-A00A-44D7-9371-BEB064C98683}\0\::{ED834ED6-4B5A-4BFE-8F11-A626DCB6A921}
-
-Old New Explorer
-http://tihiy.net/files/OldNewExplorer...
-Virustotal Scan: https://www.virustotal.com/#/file/f0a...
-Note: 1 AV engine has picked up that Old New Explorer is a virus. Proceed at your own risk.
-Alternative Scan (In much greater detail): https://www.hybrid-analysis.com/sampl...
-
-StartIsBack++
-http://startisback.com/#download-tab
-Virustotal Scan: https://www.virustotal.com/#/file/730...
-
-Classic Shell
-http://www.classicshell.net/
-Virustotal Scan: https://www.virustotal.com/#/file/4ee...
-Note: 1 AV engine detected this file as a virus, however in the community tab, there are 4 safe votes to 1 unsafe vote and 2 comments saying this is safe. This is highly likely to be a false positive. Proceed at your own risk.
-Start Orbs
-http://www.classicshell.net/forum/vie...
-Virustotal Scan: https://www.virustotal.com/#/file/55d...
-
-Winaero Tweaker (Optional)
-http://winaero.com/download.php?view....
-Virustotal Scan: https://www.virustotal.com/#/file/e12...
-
-Tweaks (Under Desktop and Taskbar):
-Battery Flyout
-Increase Taskbar Transparency Level
-Old Volume Control
-Disable Action Centre
-
-Aero Glass
-http://www.glass8.eu/download
-Virustotal Scan for Aero Glass: https://www.virustotal.com/#/file/9ff...
-Virustotal Scan for Aero Glass Settings: https://www.virustotal.com/#/file/7e3...
-
-Aero Glass Settings:
-Glass Geometry Radius: Win7 Style
-
-Broken links? Tell me in the comments section, and I'll try my best to fix it :)
-
---- My Channel ---
-If you found the video helpful, please give it a like and if you want to show your support, subscribe to my channel!
-
---- Music ---
-"Thief in the Night"
-"Surf Shimmy"
-"Fearless First"
+**"Thief in the Night"**
+**"Surf Shimmy"**
+**"Fearless First"**
 Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 3.0 License
-http://creativecommons.org/licenses/b...
+http://creativecommons.org/licenses/by/3.0/
+
+
+
+## Tutorial Info
+
+### Useful things to have
+
+Before you begin, it is advised that you try this in a Virtual Machine/Spare PC first to make sure that there are no issues.
+
+* **7Zip**: Unzip all sorts of archives!
+  * http://www.7-zip.org/
+* **Control Panel Personalisation**:
+  * Useful if you're not using an activated copy of Windows for testing!
+  * Pop this into the run box (`Win` + `R`) or CMD
+  * `explorer.exe ::{26EE0668-A00A-44D7-9371-BEB064C98683}\0\::{ED834ED6-4B5A-4BFE-8F11-A626DCB6A921}`
+* **Virtualbox**:
+  * Test things in a virtual machine first, without affecting your real PC!
+  * https://www.virtualbox.org/
+
+* **Windows 10**:
+  * Install Windows 10 in your VM
+  * https://www.microsoft.com/en-gb/software-download/windows10
+
+
+
+### Download Links
+
+**Note:** I can not be responsible for any of these external sites. It is recommended that you check each download with a service like [VirusTotal](https://www.virustotal.com) to check for malware. Note that some of the software here modifies system files and so may be falsely flagged as malware.
+
+If any of these links are broken, please let me know!
+
+
+Item | URL | Notes
+--- | --- | --- 
+UltraUXThemePatcher | https://www.syssel.net/hoefs/software_uxtheme.php?lang=en | You may need to repeat the install process later if the theme stops displaying correctly. 
+Windows 7 Theme | http://sagorpirbd.deviantart.com/art/Aero-7-Themes-for-Win10-Final-523979941 |  
+Old New Explorer | http://tihiy.net/files/OldNewExplorer.rar |  
+StartIsBack++ | http://startisback.com/#download-tab |  
+Classic Shell | http://www.classicshell.net/ |  
+Classic Shell Start Orbs | http://www.classicshell.net/forum/viewtopic.php?t=174 |  
+Winaero Tweaker | http://winaero.com/download.php?view.1796 | Tweaks (Under Desktop and Taskbar):<br>* Battery Flyout<br>
+* Increase Taskbar Transparency Level<br>
+* Old Volume Control<br>
+* Disable Action Centre 
+Aero Glass | http://www.glass8.eu/download | Aero Glass Settings:<br>* Glass Geometry Radius: Win7 Style 
+
+
