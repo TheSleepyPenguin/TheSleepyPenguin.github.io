@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome!"
+title: "Hello World!"
 author: sleepy-penguin
 date: "27 December 2018"
 image: "images/welcome/Thumbnail.png"

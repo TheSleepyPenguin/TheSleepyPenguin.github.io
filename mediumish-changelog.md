@@ -2,11 +2,17 @@
 
 * Add responsive video CSS to `assets/css/main.scss`
 
-* Add the following to `assets/css/main.scss` to make line breaks visible
+* Add the following to `assets/css/main.scss`
 
   ```scss
+  /* Makes line breaks more visible */
   hr {
   	background-color: rgba(255,255,255,0.3);
+  }
+  
+  /* Adds table cell padding */
+  td {
+  	padding-right: 20px
   }
   ```
 
