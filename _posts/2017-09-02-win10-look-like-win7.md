@@ -91,7 +91,7 @@ Before you begin, it is advised that you try this in a Virtual Machine/Spare PC 
 
 If any of these links are broken, please let me know!
 
-
+<div style="overflow-x: auto; padding-bottom: 10px" markdown="block">
 
 | Item | URL |
 | --- | --- |
@@ -103,6 +103,8 @@ If any of these links are broken, please let me know!
 | Classic Shell Start Orbs | [http://www.classicshell.net/forum/viewtopic.php?t=174](http://www.classicshell.net/forum/viewtopic.php?t=174) |
 | Winaero Tweaker | [http://winaero.com/download.php?view.1796](http://winaero.com/download.php?view.1796) |
 | Aero Glass | [http://www.glass8.eu/download](http://www.glass8.eu/download) |
+
+</div>
 
 <br/>
 
