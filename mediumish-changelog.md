@@ -29,6 +29,8 @@
 
 * Add `<meta name="theme-color" content="#343a40">` to `_layout/default.html`
 
+* Add `<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">` to `_layout/default.html`
+
 * Add the following to the `class="main_content"` section in `_layouts/default.html`:
 
   ```css
