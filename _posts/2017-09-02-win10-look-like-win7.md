@@ -3,7 +3,7 @@ layout: post
 title: "Make Windows 10 Look Like Windows 7"
 author: sleepy-penguin
 date: "2 September 2017"
-image: "images/win10-look-like-win7/Thumbnail Refresh.png"
+image: "images/win10-look-like-win7/thumbnail.png"
 categories: [Windows, themes]
 comments: true
 featured: true
@@ -124,8 +124,11 @@ In the **Aero Glass GUI**, set `Glass Geometry Radius` to `Win7 Style `
 
 ## Troubleshooting
 
-#### Frequent Issues
+---
 
-**Q:** Argh! When I select one of the Windows 7 theme, I get a Windows 8-ish looking one instead!
+**Q:** Argh! When I select one of the Windows 7 themes, I get a Windows 8-ish looking one instead, like this one:
 
-**A:** If you get something like this:
+![Windows 8-ish looking theme](/images/win10-look-like-win7/win10-aero.png)
+
+**A:** You'll need to rerun the theme patcher again and then try to select the theme. This happens because sometimes, the files needed to show the theme can become 'unpatched', meaning that it can't be applied. As a result, Windows 10 shows a derivative of its High Contrast theme.
+
