@@ -36,6 +36,7 @@ authors:
   sleepy-penguin:
     name: The Sleepy Penguin
     display_name: The Sleepy Penguin
+    author_icon: /assets/images/tux.png
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: email@email.com
     web: https://www.youtube.com/c/thesleepypenguin
