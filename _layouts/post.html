@@ -1,36 +1,105 @@
 ---
 layout: default
+disqus: false
+archive: false
+post_class: post-template
 ---
-<div class="progress progress-bar-reading red lighten-5">
-    <div class="determinate green lighten-1" id="main-progress-bar-reading" style="width: 0%"></div>
+
+<!-- Begin Article
+================================================== -->
+<div class="container">
+	<div class="row">
+
+		<!-- Post Share -->
+		<div class="col-md-2 pl-0">            
+           {% include share.html %}  
+		</div>
+		
+
+		<!-- Post -->        
+        {% assign author = site.authors[page.author] %}
+        
+		<div class="col-md-9 flex-first flex-md-unordered">
+			<div class="mainheading">
+
+                <!-- Author Box -->
+                {% if page.author %}				
+				<div class="row post-top-meta">
+					<div class="col-md-2">
+						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+					</div>
+					<div class="col-md-10">
+						<a target="_blank" class="link-light" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+						<span class="author-description">{{ author.description }}</span>						
+					</div>
+				</div>				
+                {% endif %}
+                
+                <!-- Post Title -->
+				<h1 class="posttitle">{{ page.title }}</h1> 
+                
+			</div>
+
+			<!-- Post Content -->
+			<div class="article-post">
+				{{content}}
+			</div>
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                {% if page.last_modified_at %}
+                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                {% endif %}
+                </small>
+            </p>
+            
+			<!-- Post Categories -->
+			<div class="after-post-tags">
+				<ul class="tags">
+                    {% assign sortedCategories = page.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <li>
+                     <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+				</ul>
+			</div>
+			<!-- End Categories -->
+            
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            {% if page.previous.url %}
+            <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo; {{page.previous.title}}</a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo; </a>
+            {% endif %}
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+		</div>
+		<!-- End Post -->
+
+	</div>
 </div>
-<div class="parallax-container">
-  <div class="parallax"><img style="max-width: 10%; max-height: auto"; src="{{ site.baseurl }}/images/{{ page.banner | default: "default.png" }}"></div>
-  <div class="left" style="top:20px;left:30px;position:absolute;">
-    <a href="{{site.baseurl}}/#blog" class="white-text waves-effect waves-lighten btn-flat grey darken-3 btn-large">
-       <i class="icon ion-md-arrow-back"></i>
-    </a>
-  </div>
+<!-- End Article
+================================================== -->
 
-</div>
+  
 
-<h1 class="center black-text blog-title">{{ page.title }}</h1>
-
-<div class="container post-container">
-  {{ content }}
-</div>
-
-<br></br>
-
-<div class="row author-container center-on-small-only">
-  <div class="col m2 s12 offset-m1">
-    <img src="{{ site.baseurl }}{{ "/images/author-avatar.png" | defaut: "/assets/img/author-avatar.png" }}" alt="{{ page.author | default: site.author }}" class="circle">
-  </div>
-  <div class="col m9 s12">
-    <h4>{{ site.author | default: page.author}}</h4>
-      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      <span class="light-text">{{ page.date | date: date_format }}</span>
-  </div>
-</div>
-
-<br><br>
+<!-- Begin Comments
+================================================== -->
+{% if page.comments != false %}
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">              
+                {% include disqus.html %}                
+            </div>
+        </div>
+    </div>
+{% endif %}
+<!--End Comments
+================================================== -->

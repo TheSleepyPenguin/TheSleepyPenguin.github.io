@@ -1,18 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I make tech and computing videos on YouTube! This site is here to complement the videos I make, with additional information and other stuff that's too short to put into a video.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This site is made with [Jekyll](https://jekyllrb.com/), hosted on [Github Pages](https://pages.github.com/) and the theme I'm using is a modified version of  [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll), made by **WowThemes.net**. [Mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll/blob/master/LICENSE.txt) and [Dracula](https://github.com/dracula/dracula-theme/blob/master/LICENSE), the syntax highlighting theme, is licensed under the MIT license.

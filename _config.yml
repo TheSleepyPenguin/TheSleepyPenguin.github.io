@@ -21,17 +21,47 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
+# Site
+name: "The Sleepy Penguin"
+description: "A YouTube channel for all things tech!"
+meta_description: "A YouTube channel for all things tech!"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+google_analytics: 
+disqus: 
+mailchimp-list: 
+
+# Authors
+authors:
+  sleepy-penguin:
+    name: The Sleepy Penguin
+    display_name: The Sleepy Penguin
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: email@email.com
+    web: https://www.youtube.com/c/thesleepypenguin
+    twitter: https://www.youtube.com/c/thesleepypenguin
+    description: "Description goes here or something like that..."
+  
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
 markdown: kramdown
-theme: jekyll-theme-material-blog
-plugins:
-  - jekyll-feed
-
-
-github_link: https://github.com/TheSleepyPenguin
-youtube_link: https://www.youtube.com/c/thesleepypenguin
-profession: YouTube
-project-site: /about
+highlighter: rouge
 
 
 # Exclude from processing.
