@@ -27,6 +27,8 @@
               </div>
   ```
 
+* Add `<meta name="theme-color" content="#343a40">` to `_layout/default.html`
+
 * Add the following to the `class="main_content"` section in `_layouts/default.html`:
 
   ```css
