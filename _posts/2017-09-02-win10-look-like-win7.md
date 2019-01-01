@@ -56,8 +56,7 @@ You can also try out 'FolderChanger' to change things further - note that I have
 **"Surf Shimmy"**  
 **"Fearless First"**  
 Kevin MacLeod (incompetech.com)  
-Licensed under Creative Commons: By Attribution 3.0 License  
-[http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/)
+Licensed under [Creative Commons: By Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/)
 
 
 
@@ -121,4 +120,12 @@ For **UltraUXThemePatcher**, you may need to repeat the install process later if
 
 In the **Aero Glass GUI**, set `Glass Geometry Radius` to `Win7 Style `
 
+<br/>
 
+## Troubleshooting
+
+#### Frequent Issues
+
+**Q:** Argh! When I select one of the Windows 7 theme, I get a Windows 8-ish looking one instead!
+
+**A:** If you get something like this:
