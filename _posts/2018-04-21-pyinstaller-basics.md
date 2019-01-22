@@ -61,9 +61,9 @@ Licensed under [Creative Commons: By Attribution 3.0 License](http://creativecom
 
 ---
 
-**Q:** When I run the program on Windows, the console window opens up and just closes again!
+**Q:** When I run the program on Windows, the console window opens... and then closes.
 
-**A:** This could by caused by:
+**A:** This could be caused by:
 
 1. Errors in your code - once your program runs into an error, it'll close. Make sure that your program works fully before trying to package it with Pyinstaller.
 2. The lack of `input()` at the end of your program. Without it, your program will run and as soon as it's finished, it'll close. `input()` will prevent the window from closing until you press `Enter`.
