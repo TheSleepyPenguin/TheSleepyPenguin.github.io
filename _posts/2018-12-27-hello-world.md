@@ -9,9 +9,9 @@ comments: true
 featured: true
 ---
 
-I've set up a new site to explain extra information on existing videos and to show the progress of future ones. Additionally, I'll pop downloads here, just so that things are better. :)
+I’ve set up this website to provide extra information on existing videos and to show the progress of future ones. Additionally, I’ll pop downloads here so it’s easier for me to update links if they change.
 
-The posts for existing videos will be dated as the video release date, hence why there are posts older than today.
+Currently, this site is still a work in progress, so you might see things that are broken in places. If you have any questions or have any suggestions on how to improve the site, please let me know by popping a comment on one of my videos, or in the ‘Discussions’ tab.
 
 This is made with [Jekyll](https://jekyllrb.com/), hosted on [Github Pages](https://pages.github.com/) and this wonderful theme is made by **WowThemes.net**, with the Github repo found [here](https://github.com/wowthemesnet/mediumish-theme-jekyll).
 
