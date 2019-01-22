@@ -13,6 +13,8 @@ I’ve set up this website to provide extra information on existing videos and t
 
 Currently, this site is still a work in progress, so you might see things that are broken in places. If you have any questions or have any suggestions on how to improve the site, please let me know by popping a comment on one of my videos, or in the ‘Discussions’ tab.
 
+In case you're not too sure where to start, take a look at some of my videos on my [YouTube channel](http://youtube.com/c/thesleepypenguin)!
+
 This is made with [Jekyll](https://jekyllrb.com/), hosted on [Github Pages](https://pages.github.com/) and this wonderful theme is made by **WowThemes.net**, with the Github repo found [here](https://github.com/wowthemesnet/mediumish-theme-jekyll).
 
 The theme and syntax highlighting CSS is licensed under the MIT license, which can be found below.
